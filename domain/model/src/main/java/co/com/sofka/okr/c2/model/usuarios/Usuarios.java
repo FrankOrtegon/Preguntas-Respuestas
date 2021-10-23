@@ -9,7 +9,6 @@ import lombok.Data;
 @Data
 @Builder(toBuilder = true)
 public class Usuarios {
-
     private IdUser id;
     private Name name;
     private Email email;
